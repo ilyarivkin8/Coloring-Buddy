@@ -1,0 +1,9 @@
+{
+  "name": "ColorBuddy - Kids AI Coloring Book",
+  "description": "A magical AI-powered coloring page generator for kids. Create custom coloring sheets using voice or text and print them instantly.",
+  "requestFramePermissions": [
+    "microphone",
+    "camera"
+  ],
+  "majorCapabilities": []
+}
