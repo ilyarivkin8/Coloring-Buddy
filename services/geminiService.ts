@@ -22,6 +22,7 @@ export const generateColoringImage = async (
   // Base instructions for a consistent style
   const styleInstructions = `Create a black and white coloring book page for a 6 year old child. 
     Style: purely black outlines on a pure white background, no shading, no gray colors, clean line art. 
+    Text: DO NOT include any text, letters, or numbers in the image unless explicitly requested in the user prompt.
     Complexity: ${detailLevel}. Ensure high quality, fun and friendly design. 
     Orientation: ${orientation === Orientation.LANDSCAPE ? 'Landscape (wider than tall)' : 'Portrait (taller than wide)'}.`;
 
